@@ -9,7 +9,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -38,21 +37,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-### What I learned
-
-```css
-section:nth-of-type(1) {
-  background-color: hsl(178, 100%, 50%);
-  height: 294px;
-  border-radius: 10px;
-}
-
-.equil-img:active {
-  cursor: pointer;
-  opacity: 50%;
-}
-```
-
 ### Continued development
 
 In the future, I want to be able to complete projects in a shorter period of time. Also, I would like to practice more my Flexbox knowledge and responsiveness.
@@ -60,6 +44,7 @@ In the future, I want to be able to complete projects in a shorter period of tim
 ### Useful resources
 
 - [About hsl()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl()) - This MDN article helped me to better understand the hsl colors. 
+- [object-position](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) - This has helped me to understant position of elements.
 
 ## Author
 

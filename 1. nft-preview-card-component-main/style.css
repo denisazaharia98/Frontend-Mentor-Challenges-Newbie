@@ -5,6 +5,7 @@
 body {
   background-color: hsl(217, 54%, 11%);
   color: hsl(215, 52%, 70%);
+  font-family: Outfit;
 }
 
 .card {
@@ -23,7 +24,7 @@ body {
 }
 
 #header,
-#content,
+#main,
 #footer {
   margin: 22px 23px;
 }
@@ -44,11 +45,14 @@ body {
 
 #eye-pic {
   position: absolute;
-  background-color: hsl(178, 100%, 50%, 0.6);
   width: inherit;
   height: inherit;
   border-radius: 10px;
   opacity: 0;
+}
+
+#eye-pic:hover {
+  opacity: 1;
 }
 
 #eye-pic > img {
@@ -60,15 +64,26 @@ body {
   left: 0;
 }
 
-#header:hover #eye-pic {
+.bg-color {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  border-radius: 10px;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+.bg-color:hover {
   opacity: 1;
-  transition: all 1s ease-in-out;
+  background-color: hsl(178, 100%, 50%, 0.6);
 }
 
 .title {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
   font-size: 22px;
+  transition-property: color;
+  transition-duration: 1s;
 }
 
 #abt {
@@ -119,20 +134,22 @@ img {
 
 span {
   color: hsl(0, 0%, 100%);
+  transition-property: color;
+  transition-duration: 1s;
 }
 
 span:hover,
 .title:hover {
   cursor: pointer;
   color: hsl(178, 100%, 50%);
-  transition-duration: 2s;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 110vh;
+  margin-top: 100vh;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -152,4 +169,3 @@ span:hover,
     height: 99%;
   }
 }
-

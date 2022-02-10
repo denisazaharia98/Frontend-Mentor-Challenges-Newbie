@@ -7,6 +7,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -27,6 +28,11 @@ Users should be able to:
 ![1](./my_design/desktop-design.png)
 ![2](./my_design/hover-state.png)
 ![3](./my_design/mobile-design.png)
+
+### Links
+
+- Solution URL: https://github.com/denisazaharia98/Frontend-Mentor-Challenges-Newbie/tree/main/1.%20nft-preview-card-component-main
+- Live Site URL: https://denisazaharia98.github.io/Frontend-Mentor-Challenges-Newbie/1.%20nft-preview-card-component-main/
 
 ## My process
 

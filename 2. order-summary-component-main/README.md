@@ -29,6 +29,11 @@ Users should be able to:
 ![2](./my_design/hover-state.png)
 ![3](./my_design/mobile-design.png)
 
+### Links
+
+- Solution URL: https://github.com/denisazaharia98/Frontend-Mentor-Challenges-Newbie/tree/main/2.%20order-summary-component-main
+- Live Site URL: https://denisazaharia98.github.io/Frontend-Mentor-Challenges-Newbie/2.%20order-summary-component-main/
+
 ## My process
 
 ### Built with

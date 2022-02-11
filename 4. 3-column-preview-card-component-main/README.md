@@ -27,13 +27,13 @@ Users should be able to:
 ### Screenshot
 
 ![1](./my_design/desktop-design.png)
-![2](./my_design/hover-state.png)
+![2](./my_design/active-state.png)
 ![3](./my_design/mobile-design.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/denisazaharia98/Frontend-Mentor-Challenges-Newbie/tree/main/4.%203-column-preview-card-component-main
+- Live Site URL: https://denisazaharia98.github.io/Frontend-Mentor-Challenges-Newbie/4.%203-column-preview-card-component-main/
 
 ## My process
 
@@ -65,7 +65,7 @@ I want to keep doing projects.
 
 ### Useful resources
 
-- [Mastering Wrapping of Flex Items](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Mastering_Wrapping_of_Flex_Items) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Mastering Wrapping of Flex Items](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Mastering_Wrapping_of_Flex_Items) - This helped me to display the cards responsive.
 
 ## Author
 

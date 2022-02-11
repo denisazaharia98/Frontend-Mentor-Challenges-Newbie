@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshot
 
 ![1](./my_design/desktop-design.png)
-![2](./my_design/active-state.png)
+![2](./my_design/hover-state.png)
 ![3](./my_design/mobile-design.png)
 
 ### Links

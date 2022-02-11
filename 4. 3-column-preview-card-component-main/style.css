@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.cards {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 65%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.card {
+  padding: 2.5rem;
+}
+
+.card:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+}
+
+img {
+  width: 4rem;
+}
+
+.title {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  padding: 1.5rem 0;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: xx-large;
+}
+
+.main {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: small;
+  line-height: 20px;
+  margin: 0 1rem 4rem 0;
+}
+
+button {
+  font-family: "Lexend Deca", sans-serif;
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  padding: 0.6rem 1.5rem;
+  transition-duration: 1s;
+  transition-property: background-color;
+}
+
+/* Button text color */
+
+#sedan {
+  color: hsl(31, 77%, 52%);
+}
+
+#suv {
+  color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+#sedan:hover,
+#suv:hover,
+#luxury:hover {
+  background-color: inherit;
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 100vh;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1020px) {
+  .card:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+  }
+  .card:nth-child(3) {
+    border-radius: 0 10px 10px 0;
+  }
+  .attribution {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1020px) and (min-width: 740px) {
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cards > * {
+    flex: 0 0 33.3333%;
+  }
+  .card:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+  }
+  .card:nth-child(2) {
+    border-radius: 0 10px 10px 0;
+  }
+  .card:nth-child(3) {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media screen and (max-width: 740px) and (min-width: 320px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    min-width: 90%;
+  }
+  .card:nth-child(1) {
+    border-radius: 10px 10px 0 0;
+  }
+  .card:nth-child(2) {
+    border-radius: 0;
+  }
+  .card:nth-child(3) {
+    border-radius: 0 0 10px 10px;
+  }
+}

@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/denisazaharia98/Frontend-Mentor-Challenges-Newbie/tree/main/5.%20ping-coming-soon-page-master
+- Live Site URL: https://denisazaharia98.github.io/Frontend-Mentor-Challenges-Newbie/5.%20ping-coming-soon-page-master/
 
 ## My process
 

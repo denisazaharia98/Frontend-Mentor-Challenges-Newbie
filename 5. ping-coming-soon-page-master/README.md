@@ -73,7 +73,7 @@ I want to keep doing projects.
 
 ### Useful resources
 
-- [<input type="email">](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) - This article helped me to understand it better.
+- ["<input type="email">"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) - This article helped me to understand it better.
 - [PX to REM converter](https://nekocalc.com/px-to-rem-converter) - This tool helped me to convert the pixels to rem.
 
 ## Author
